@@ -1,0 +1,14 @@
+{
+  "name": "error-reporter",
+  "version": "0.0.1",
+  "description": "Sends Error Details with stacktrace to specified email IDs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "error"
+  ],
+  "author": "Akash Jobanputra",
+  "license": "ISC"
+}
