@@ -10,5 +10,8 @@
     "error"
   ],
   "author": "Akash Jobanputra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.3.0"
+  }
 }
