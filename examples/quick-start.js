@@ -8,10 +8,9 @@ checkIfTypeArray = (param) => {
                 param
             }
         });
-    } else {
-        // continue
-        console.log(`${param} is an instance of Array.`);
     }
+    // continue
+    console.log(`${param} is an instance of Array.`);
 }
 
 try {
