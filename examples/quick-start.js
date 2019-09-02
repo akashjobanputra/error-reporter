@@ -1,4 +1,4 @@
-const { Errors } = require('../lib');
+const { Errors, errorHandler } = require('../lib');
 
 checkIfTypeArray = (param) => {
     if (!(param instanceof Array)) {
@@ -16,5 +16,5 @@ checkIfTypeArray = (param) => {
 try {
     checkIfTypeArray(5);
 } catch (error) {
-    console.error(error);   // call error handler instead.
+    errorHandler(error);
 }
